@@ -3,7 +3,7 @@ package com.oreilly.video.lesson4.exceptions;
 public class UsingExceptions {
 
 	public static void main(String[] args) {
-		
+		  
 		try {
 			throwException(); // call method throwException
 			System.out.println("1. Continue with Main code after throwException\n");
