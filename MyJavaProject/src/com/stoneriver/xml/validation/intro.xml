@@ -14,5 +14,10 @@
 		<capital>Paris</capital>
 		<description>France is a country of Romance</description>
 	</country>
+	<country countryCode="us">
+		<name>United States of America</name>
+		<capital>Washington</capital>
+		<description>France is a country of Freedom</description>
+	</country>
 
 </root>
