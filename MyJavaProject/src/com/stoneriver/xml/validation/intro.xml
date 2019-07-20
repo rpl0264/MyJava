@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- https://www.youtube.com/watch?v=fd_JNrYKAGI -->
-<!DOCTYPE root SYSTEM "intro.dtd">
+<!-- <!DOCTYPE root SYSTEM "intro.dtd"> -->
 
-<root>
-	<country countryCode = "sr">
+
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="intro.xsd">
+	<country countryCode="sr">
 		<name>Serbia</name>
 		<capital>Belgrade</capital>
 		<description>Serbia is a wonderful Country</description>

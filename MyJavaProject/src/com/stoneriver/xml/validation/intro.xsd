@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="country">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string" />
+							<xs:element name="capital" type="xs:string" />
+							<xs:element name="description" type="xs:string" />
+						</xs:sequence>
+						<xs:attribute name="countryCode" type="xs:string"
+							use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
