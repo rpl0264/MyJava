@@ -1,4 +1,4 @@
-package com.oracle.packt.basics;
+package com.oracle.packt.chp2.basics;
 
 public class OperatorTest {
 

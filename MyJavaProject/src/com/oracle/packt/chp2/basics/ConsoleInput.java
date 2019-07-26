@@ -1,4 +1,4 @@
-package com.oracle.packt.basics;
+package com.oracle.packt.chp2.basics;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
