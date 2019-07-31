@@ -6,7 +6,7 @@ public class UsingExceptions {
 		  
 		try {
 			throwException(); // call method throwException
-			System.out.println("1. Continue with Main code after throwException\n");
+			System.out.println("1. Continue with MainDom code after throwException\n");
 		} //end of try
 		catch (Exception exception) 
 		{
